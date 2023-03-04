@@ -23,7 +23,7 @@ void Show_user_array (int [] new_array)
     }
 }
 
-int Count_negativ_numbers (int [] array)
+int Count_pozitive_numbers (int [] array)
 {
     int result = 0;
     {
@@ -41,4 +41,4 @@ int count_numbers = Convert.ToInt32(Console.ReadLine());
 int [] user_array = Input_user_array(count_numbers);
 Show_user_array(user_array);
 Console.Write("\b\b -> ");
-Console.Write(Count_negativ_numbers(user_array));
+Console.Write(Count_pozitive_numbers(user_array));
